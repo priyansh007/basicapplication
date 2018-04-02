@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.priyanshzalavadiya.basicapplication.wild2"
+    android:background="#1A237E"
+    android:gravity="center">
+
+    <LinearLayout android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:id="@+id/linearLayout"
+        android:gravity="center">
+
+        <ImageView
+            android:src="@drawable/wild2"
+            android:layout_width="360dp"
+            android:layout_height="420dp"
+            android:scaleType="centerCrop"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentRight="true"
+            android:layout_alignParentEnd="true" />
+        <Button
+            android:layout_width="360dp"
+            android:layout_height="70dp"
+            android:text="HOME"
+            android:onClick="process"
+            android:textColor="#000"
+            android:id="@+id/but1"
+            android:layout_alignParentBottom="true"
+            android:layout_below="@+id/linearLayout"
+            android:layout_alignRight="@+id/linearLayout"
+            android:layout_alignEnd="@+id/linearLayout"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentStart="true"
+            android:textSize="40sp"
+            android:background="#078cfb"
+            android:textStyle="bold"
+            android:enabled="true"
+            android:longClickable="false" />
+        <Button
+            android:layout_width="360dp"
+            android:layout_height="70dp"
+            android:text="SHARE"
+            android:id="@+id/s1"
+            android:textColor="#000"
+            android:layout_alignParentBottom="true"
+            android:layout_below="@+id/linearLayout"
+            android:layout_alignRight="@+id/linearLayout"
+            android:layout_alignEnd="@+id/linearLayout"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentStart="true"
+            android:textSize="40sp"
+            android:background="#3b0494"
+            android:onClick="process"
+            android:textStyle="bold"
+            android:enabled="true"
+            android:longClickable="false" />
+    </LinearLayout>
+
+</RelativeLayout>

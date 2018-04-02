@@ -1,0 +1,98 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.priyanshzalavadiya.basicapplication">
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:supportsRtl="true"
+        android:theme="@style/Theme.AppCompat.NoActionBar">
+        <activity android:name=".MainActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity android:name=".second">
+            <intent-filter>
+                <action android:name="com.example.priyanshzalavadiya.basicapplication.second" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        <activity android:name=".wild1">
+            <intent-filter>
+                <action android:name="com.example.priyanshzalavadiya.basicapplication.wild1" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        <activity android:name=".natural">
+            <intent-filter>
+                <action android:name="com.example.priyanshzalavadiya.basicapplication.natural" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        <activity android:name=".celeb1">
+            <intent-filter>
+                <action android:name="com.example.priyanshzalavadiya.basicapplication.celeb1" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        <activity android:name=".face1">
+            <intent-filter>
+                <action android:name="com.example.priyanshzalavadiya.basicapplication.tech1" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        <activity android:name=".tech1">
+            <intent-filter>
+                <action android:name="com.example.priyanshzalavadiya.basicapplication.face1" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        <activity android:name=".wild2">
+            <intent-filter>
+                <action android:name="com.example.priyanshzalavadiya.basicapplication.wild2" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        <activity android:name=".natural2">
+            <intent-filter>
+                <action android:name="com.example.priyanshzalavadiya.basicapplication.natural2" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        <activity android:name=".tech2">
+            <intent-filter>
+                <action android:name="com.example.priyanshzalavadiya.basicapplication.tech2" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        <activity android:name=".face2">
+            <intent-filter>
+                <action android:name="com.example.priyanshzalavadiya.basicapplication.face2" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        <activity android:name=".celeb2">
+            <intent-filter>
+                <action android:name="com.example.priyanshzalavadiya.basicapplication.celeb2" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+
+        </activity>
+    </application>
+
+</manifest>
